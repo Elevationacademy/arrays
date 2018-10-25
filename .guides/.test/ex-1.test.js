@@ -1,4 +1,4 @@
-const { people, ex1 } = require('./ex-1')
+const { people, ex1 } = require('../../ex-1')
 
 test('`p1` and `p2` should be objects with the properties: `name` - a string, `age` - a number, and `city` - a string.', () => {
     people.forEach(p => {
