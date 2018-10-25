@@ -1,0 +1,32 @@
+[
+ {
+  "taskId": "test-2317839833",
+  "points": 0,
+  "results": [
+   {
+    "code": 1,
+    "output": "One or more tests failed:\n`p1` and `p2` should be objects with the properties: `name` - a string, `age` - a number, and `city` - a string.\nMatching age and city should print '... wanted to date ...'\nMatching age but not city should print '... wanted to date ..., but couldn't'\n",
+    "timestamp": 1540474990447,
+    "state": "fail"
+   },
+   {
+    "code": 1,
+    "output": "There was an error testing your code. Please make sure it runs before testing.",
+    "timestamp": 1540474948308,
+    "state": "fail"
+   },
+   {
+    "code": 1,
+    "output": "module.js:549\n    throw err;\n    ^\n\nError: Cannot find module 'jest-cli'\n    at Function.Module._resolveFilename (module.js:547:15)\n    at Function.Module._load (module.js:474:25)\n    at Module.require (module.js:596:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/home/codio/workspace/.guides/.test/test-runner.js:2:12)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)",
+    "timestamp": 1540474912777,
+    "state": "fail"
+   },
+   {
+    "code": 1,
+    "output": "module.js:549\n    throw err;\n    ^\n\nError: Cannot find module 'jest-cli'\n    at Function.Module._resolveFilename (module.js:547:15)\n    at Function.Module._load (module.js:474:25)\n    at Module.require (module.js:596:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/home/codio/workspace/.guides/.test/test-runner.js:2:12)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)",
+    "timestamp": 1540474909558,
+    "state": "fail"
+   }
+  ]
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-2317839833",
+  "source": {
+   "name": "Exercise 1",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Create two 'people' objects, p1 and p2. Each should have the following properties:\n\n*   name\n*   age\n*   city\n\nWrite some code with the following logic (assuming the names are Jill and Robert):\n\n*   If the people are the same age\n\n*   If the people live in the same city\n\n*   Print \"Jill wanted to date Robert\"\n\n*   If they're not in the same city\n\n*   Print \"Jill wanted to date Robert, but couldn't\"\n\nNote that the only data should be **in the objects** - in your if conditions, make sure to use the objects' properties (keys).",
+   "command": "node .guides/.test/test-runner ex-1",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ }
+]

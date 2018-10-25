@@ -1,0 +1,39 @@
+{
+ "sections": [
+  {
+   "id": "2bd90a79-ca2a-27a8-1ea6-1e0bf51787c1",
+   "title": "JavasScript - Arrays and Objects",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/JavasScript---Arrays-and-Objects-2bd9.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "4acd3866-68e6-1196-6cac-c3b13932b7a7",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercises-4acd.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": false,
+ "useSubmitButtons": true,
+ "useMarkAsComplete": true,
+ "hideMenu": false,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false
+}

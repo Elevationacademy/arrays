@@ -1,0 +1,17 @@
+{
+ "name": "JavaScript - Arrays and Objects",
+ "children": [
+  {
+   "title": "JavasScript - Arrays and Objects",
+   "id": "2bd90a79-ca2a-27a8-1ea6-1e0bf51787c1",
+   "pageId": "2bd90a79-ca2a-27a8-1ea6-1e0bf51787c1",
+   "type": "page"
+  },
+  {
+   "title": "Exercises",
+   "id": "4acd3866-68e6-1196-6cac-c3b13932b7a7",
+   "pageId": "4acd3866-68e6-1196-6cac-c3b13932b7a7",
+   "type": "page"
+  }
+ ]
+}
