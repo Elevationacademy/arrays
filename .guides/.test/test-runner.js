@@ -35,8 +35,10 @@ function processTestResults() {
                 failureMessage = failureMessage + t.fullName + "\n";
             }
         });
-        console.log("One or more tests failed:");
-        console.log(failureMessage);
+        
+        failureMessage ?
+            console.log("One or more tests failed:\n" + failureMessage)
+            : console.log("There was an error testing your code. Please make sure it runs before testing.")
         process.exit(1);
     }
 }
