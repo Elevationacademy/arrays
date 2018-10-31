@@ -1,4 +1,4 @@
-const { people, ex1 } = require('../../ex-1')
+const { people, ex } = require('../../ex-1')
 
 test('`p1` and `p2` should be objects with the properties: `name` - a string, `age` - a number, and `city` - a string.', () => {
     people.forEach(p => {
@@ -12,13 +12,14 @@ test('`p1` and `p2` should be objects with the properties: `name` - a string, `a
     })
 })
 
-let outputData = "";
-storeLog = inputs => (outputData += inputs);
+let outputData = ""
+storeLog = inputs => (outputData += inputs)
+console["log"] = jest.fn(storeLog)
 
 test("Matching age and city should print '... wanted to date ...'", () => {
-    console["log"] = jest.fn(storeLog);
+    outputData = ""
 
-    ex1({ name: "p1name", age: 23, city: "Sherman" },
+    ex({ name: "p1name", age: 23, city: "Sherman" },
         { name: "p2name", age: 23, city: "Sherman" })
 
     expect(outputData.trim()).toBe("p1name wanted to date p2name")
@@ -26,24 +27,19 @@ test("Matching age and city should print '... wanted to date ...'", () => {
 });
 
 test("Matching age but not city should print '... wanted to date ..., but couldn't'", () => {
-    outputData = "";
-    console["log"] = jest.fn(storeLog);
+    outputData = ""
 
-    ex1({ name: "p1name", age: 23, city: "Sherman" },
+    ex({ name: "p1name", age: 23, city: "Sherman" },
         { name: "p2name", age: 23, city: "Mansher" })
 
     expect(outputData.trim()).toBe("p1name wanted to date p2name, but couldn't")
 });
 
 test("No match on age should print nothing", () => {
-    outputData = "";
-    console["log"] = jest.fn(storeLog);
+    outputData = ""
 
-    ex1({ name: "p1name", age: 22, city: "Sherman" },
+    ex({ name: "p1name", age: 22, city: "Sherman" },
         { name: "p2name", age: 23, city: "Sherman" })
 
     expect(outputData.trim()).toBe("")
 });
-
-
-
