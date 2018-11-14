@@ -12,6 +12,12 @@
    "id": "4acd3866-68e6-1196-6cac-c3b13932b7a7",
    "pageId": "4acd3866-68e6-1196-6cac-c3b13932b7a7",
    "type": "page"
+  },
+  {
+   "id": "6dc92a0e-8123-da60-f659-190c7ab12dcf",
+   "title": "Quiz",
+   "pageId": "c2f4437a-f68d-f76e-92ae-cd4d1517ae6d",
+   "type": "page"
   }
  ]
 }

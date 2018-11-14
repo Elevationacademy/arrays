@@ -16,5 +16,149 @@
    "points": 1,
    "timeoutSeconds": 40
   }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1591226608",
+  "source": {
+   "name": "Exercise 2",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Create an array called `myList` with two objects inside. Use whatever key-values you like.  \nThen add some code to **modify** one of the values in the _first_ object, and **remove** the _second_ object from the array entirely.\n\nConsole log everything along the way to make sure it's all working.",
+   "command": "node .guides/.test/test-runner ex-2",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1169498200",
+  "source": {
+   "name": "Exercise 3",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "",
+   "command": "",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1300547452",
+  "source": {
+   "name": "Exercise 3",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Create another array called `extras` with at least one object, and **add** it to `myList` from Exercise 2 - remember the **spread syntax?**",
+   "command": "node .guides/.test/test-runner ex-3",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1157045527",
+  "source": {
+   "name": "Exercise 4",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "*   Create an object called `library` that has a `books` **key**\n*   The **value** of `books` should be an array of book objects.\n*   Each book should have a `title` and `author` key.\n\nAdd `books` to your `myList` array. You've got this.",
+   "command": "node .guides/.test/test-runner ex-4",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3968661351",
+  "source": {
+   "name": "Exercise 5",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "You have this setup code:\n\n```javascript\nconst reservations = {\n  Bob: { claimed: false },\n  Ted: { claimed: true }\n}\n\nconst name = prompt('Please enter the name for your reservation');\n```\n\nNote that `prompt` will show a popup on your screen and allow you to input some text - that text will be stored inside `name`\n\nThe above code is a reservation system where people can claim their reservations when they arrive.\n\nAfter receiving the name from the `prompt`,\n\n*   If the reservation exists and is unclaimed, welcome the user (console log)\n*   If the reservation exists and is already claimed, inform the user about the situation\n*   If there is no reservation, tell the user there is nothing under their name\n\nUse 'Bob' and 'Ted' to test your code:\n\n*   When you test Bob, it should say \"Welcome, Bob\"\n*   When you test Ted, it should say \"Hmm, someone already claimed this reservation\"\n*   If you try a different name, it should say \"You have no reservation\"\n\n**Note:** Definitely upload this code to Github, you might want to use it later on ;)",
+   "command": "node .guides/.test/test-runner ex-5",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3515120923",
+  "source": {
+   "name": "Exercise 5.1",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "It so happens that our restaurant has a bunch of open tables. Therefore, if someone doesn't have a reservation, add it to the reservations object and set \"claimed\" to true for that person.",
+   "command": "node .guides/.test/test-runner ex-5-1",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3168900293",
+  "source": {
+   "name": "Exercise 5.2",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "As of now, 'Ted' and 'ted' are two different names in our system. Change your code (including the `reservations` object keys) so that 'ted' and 'Ted' or even 'TeD' are all the same.  \nYou might be interested in [toLowerCase](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase) - and don't forget about **bracket notation**; using a variable and modifying it will certainly help here.",
+   "command": "node test-runner ex-5-2",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1711026430",
+  "source": {
+   "name": "Extension Exercise",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "This one is not hard, it's just involved. Take a breath, take your time.\n\nGiven these two variables:\n\n```javascript\nconst date = 3\n\nconst kitchen = {\n    owner: \"Geraldine\",\n    hasOven: true/false, // choose one\n    fridge: {\n        price: 500,\n        works: true/false, // choose one\n        items: [\n            { name: \"cheese\", expiryDate: 7 },\n            { name: \"raddish\", expiryDate: 2 },\n            { name: \"bread\", expiryDate: 1 }\n        ]\n    }\n}\n\n```\n\n  \nYou're going to console log of these four options _conditionally_, based on the values you selected for `hasOven` and `works`:\n\n![](https://s3-us-west-2.amazonaws.com/learn-app/Screen+Shot+2018-11-11+at+15.30.34.png)\n\nNote that the _expired 1 day ago_ should be calculated based off the `date` variable and `expiryDate` property.  \nAlso, _she'll have to pay 250 to fix the fridge_ should be calculated based off the `price` property in `fridge` - it should be half the price.\n\n<b>Make sure</b> to only use information from the variables you've been given. \n<br><b>Do not</b> write out \"raddish\". Instead, use <code>kitchen.fridge.items...</code>\n\n**Hint:** Use **helper variables** to make your life easier. For instance:\n\n```javascript\nconst hasOven = kitchen.hasOven\n//...\n\nif(hasOven){\n  //...\n  //this will be cleaner than doing: \n  //if(kitchen.hasOven){...\n```\n\n**Note**: this exercise is not tested automatically and will always be marked as passed.",
+   "command": "",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
  }
 ]
