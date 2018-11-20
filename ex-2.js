@@ -1,17 +1,15 @@
 // - DO NOT modify/delete *any* starter code (you can remove the comments though)
 
 function Exercise2() {
-    /* vv Define your array here vv */
+    let leaders = ["Duke", "Bishop", "King"]
 
-    /* ^^ Define your array here ^^ */
-
-    const ex = function (myList) {
-        //Write your modify/remove logic here (between the curly braces of `ex`)
+    const ex = function (leaders) {
+        //Write your logic here (between the curly braces of `ex`)
     }
 
-    return { myList, ex }
+    return { leaders, ex }
 }
 
 //feel free to ignore this:
 var x = Exercise2()
-typeof module == 'undefined' ? x.ex(x.myList) : module.exports = x
+typeof module == 'undefined' ? x.ex(x.leaders) : module.exports = x
