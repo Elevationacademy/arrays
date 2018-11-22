@@ -23,7 +23,7 @@ function runTests(testName) {
 function processTestResults() {
     var results = JSON.parse(fs.readFileSync('./test-results.json'));
     // No failed tests - pass the exercise
-    if (results && results.numFailedTests && results.numFailedTests === 0) {
+    if (results && results.numFailedTests === 0) {
         console.log("Well done!");
         process.exit(0);
     }

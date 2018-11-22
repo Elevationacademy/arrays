@@ -40,6 +40,20 @@
             "windows": {
                 "program": "${workspaceFolder}/node_modules/jest/bin/jest",
             }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Elevation Test Runner",
+            "program": "${workspaceFolder}/.guides/.test/test-runner.js",
+            "args": [
+                "ex-1"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "windows": {
+                "program": "${workspaceFolder}/.guides/.test/test-runner.js",
+            }
         }
     ]
 }
