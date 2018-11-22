@@ -11,7 +11,6 @@ test("Should create an empty array, add `Katlin` and `Kotlin` using *one* push, 
     ex()
     expect(pushSpy).toHaveBeenCalledTimes(1)
     expect(pushSpy).toHaveBeenLastCalledWith('Katlin', 'Kotlin')
-    // expect(pushSpy).toHaveBeenLastCalledWith('Kotlin')
     expect(spliceSpy).toHaveBeenCalledTimes(1)
     expect(outputData).toBe("Katlin") //prints content of array as joined string
 })

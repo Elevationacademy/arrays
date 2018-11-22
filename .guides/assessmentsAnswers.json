@@ -5,6 +5,12 @@
   "results": [
    {
     "code": 1,
+    "output": "One or more tests failed:\nShould print the userID at the index of `userPosition`, using the variable itself\n",
+    "timestamp": 1542744095792,
+    "state": "fail"
+   },
+   {
+    "code": 1,
     "output": "One or more tests failed:\n`p1` and `p2` should be objects with the properties: `name` - a string, `age` - a number, and `city` - a string.\nMatching age and city should print '... wanted to date ...'\nMatching age but not city should print '... wanted to date ..., but couldn't'\n",
     "timestamp": 1540474990447,
     "state": "fail"
