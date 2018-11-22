@@ -160,5 +160,278 @@
    "points": 1,
    "timeoutSeconds": 40
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1978898084",
+  "source": {
+   "name": "Question #1",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "You can store the following data-types in an array:",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "678cdc90-fd1a-7307-749a-8d7dc0b55cda",
+     "correct": false,
+     "answer": "Strings, numbers, and booleans"
+    },
+    {
+     "_id": "e41c93d5-83d1-f5d7-eeeb-770c7902e145",
+     "correct": false,
+     "answer": "Strings, numbers, booleans, and other arrays"
+    },
+    {
+     "_id": "e2541280-71db-5c0e-939b-8e63d80b4b4b",
+     "correct": false,
+     "answer": "Strings, numbers, booleans, and other arrays (but only one level deep)"
+    },
+    {
+     "_id": "de05ef37-2949-7a27-a95e-98635c38b2ea",
+     "correct": true,
+     "answer": "Anything"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4127895486",
+  "source": {
+   "name": "Question #2",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "Given the following code: `let x = ages[3] + 20`, assuming the array `ages` looks like this: `[0, 17, 2, 4, 31, 3]`, what will `x` be?",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "41e637f6-2588-0971-b590-9dd395c3522f",
+     "correct": false,
+     "answer": "23"
+    },
+    {
+     "_id": "c5556121-bd84-f26b-0caa-296f267262fb",
+     "correct": false,
+     "answer": "22"
+    },
+    {
+     "_id": "83384105-19dc-677f-17bf-701df5db6883",
+     "correct": false,
+     "answer": "51"
+    },
+    {
+     "_id": "152d6c67-e652-5e31-ee3d-11d443de6c4c",
+     "correct": true,
+     "answer": "24"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3482247821",
+  "source": {
+   "name": "Question #3",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "Given the following: \n`let x = [ \n\t{name: “ant”, \n\t  color: “brown”}, \n\t{name: “flower”, \n\t  color: “green”}\n]`\nWhat will change after we do `x.push( {name: “ant”, color: “green”} )` ?",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "1c4e1b02-6ff8-45ed-45be-0d3065add8f5",
+     "correct": false,
+     "answer": "Now the value of `x[0].color` is “green”"
+    },
+    {
+     "_id": "15689196-78cc-45a0-637f-4db6d4880484",
+     "correct": false,
+     "answer": "Now the value of `x[1].name` is “ant”"
+    },
+    {
+     "_id": "3a5dc542-bbf5-d25c-b71a-17656c9b76da",
+     "correct": true,
+     "answer": "Now the value of `x[2].name` is “ant”"
+    },
+    {
+     "_id": "31746e3b-e10b-6b5a-cfcf-4990b46731f6",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2304501975",
+  "source": {
+   "name": "Question #4",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "Given the object `let x = {word: 13}`, what will the value of `x.word` be after we do `x.word++`?",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "7f86e48c-1c55-47db-bbec-2213eee055a1",
+     "correct": false,
+     "answer": "No change"
+    },
+    {
+     "_id": "d0aff44a-fd29-e08c-e589-73412b2e6803",
+     "correct": true,
+     "answer": "14"
+    },
+    {
+     "_id": "7dad9cd8-b7e5-21a5-8114-65ca3418e686",
+     "correct": false,
+     "answer": "15"
+    },
+    {
+     "_id": "3415e043-1d96-0e25-70a6-570e7aae4eeb",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3710867868",
+  "source": {
+   "name": "Question #5",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "Given the following:\n`let x = [“Roland”, “Dayna”, “Sue”]\nlet y = x\ny.push(“Shoobert”)`\nWhat will the value of `x[3]` be?",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "3df84bff-034c-c1e9-c0dd-fba1644160da",
+     "correct": false,
+     "answer": "Sue"
+    },
+    {
+     "_id": "392ef0a5-cebe-4376-036f-4ba64eef2858",
+     "correct": true,
+     "answer": "Shoobert"
+    },
+    {
+     "_id": "55536a0c-bf9d-1db2-33ec-f1242e7490ac",
+     "correct": false,
+     "answer": "undefined"
+    },
+    {
+     "_id": "07cdc945-5bd3-fe0b-8d1a-0719bf6a9aa8",
+     "correct": false,
+     "answer": "It will throw an error"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1322692055",
+  "source": {
+   "name": "Question #6",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "How does splice work?",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "ee48cf6c-1238-d176-7117-15c2e2159188",
+     "correct": false,
+     "answer": "`splice(i)` removes the item at index `i`"
+    },
+    {
+     "_id": "a3ca0411-7be0-c08b-7681-5467c505bbc2",
+     "correct": false,
+     "answer": "`splice(i, n)` removes all the items starting at index `i`, and ending at index `n`"
+    },
+    {
+     "_id": "e3920ea2-e8db-2228-e2d7-00675bad33ff",
+     "correct": false,
+     "answer": "`splice(i)` removes all the items until index `i`"
+    },
+    {
+     "_id": "d1bd4f5a-f699-f65c-e695-d26f3c8078f9",
+     "correct": true,
+     "answer": "`splice(i, n)` removes all the items starting at index `i`, and all the `n` items after"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3882597688",
+  "source": {
+   "name": "Question #7",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "If we have `x = [1, 2, 3]` and `y = [...x]`, what can we say about `x` and `y`?",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "ebc90704-fc06-c07d-0c6b-0a905afab4a0",
+     "correct": false,
+     "answer": "They are now references of one another, because arrays are reference types"
+    },
+    {
+     "_id": "96bb1e17-c16b-8a57-35c0-66345648c000",
+     "correct": true,
+     "answer": "They have the same values but are not references because we used the spread operator"
+    },
+    {
+     "_id": "970109b3-fc73-2e46-229c-48846b172dd3",
+     "correct": false,
+     "answer": "They are references of one another because we used the `spread` operator"
+    },
+    {
+     "_id": "2e604e53-e2fd-73c6-cf9b-4e1696ee7269",
+     "correct": false,
+     "answer": "They have the same values but every new value we `push` will not be a reference because we used the spread operator"
+    }
+   ]
+  }
  }
 ]
