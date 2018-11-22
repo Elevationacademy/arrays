@@ -4,7 +4,7 @@ function Exercise1() {
     let userPosition = 3
     let userIDs = ["user_19921231111", "user_0119381334178887", "user_01193842221237", "user_732999218401", "user_872341"]
     const ex = function (userPosition) {
-        console.log(userIDs[userPosition]);
+        // Your code goes here
     }
 
     return { ex, userPosition }
